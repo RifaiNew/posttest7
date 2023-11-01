@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(113, 50, 0);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: arial;
+}
+
+.kotak_login {
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px;
+}
+
+.kotak_login h1{
+    text-align: center;
+}
+
+form{
+    border-top: 2px solid rgba(113, 50, 0);
+    padding-left: 45px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    padding-top: 35px;
+}
+
+.txt_field{
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgba(113, 50, 0);
+}
+
+.txt_field input{
+    border: none;
+    outline: none;
+    padding-right: 45%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 7px;
+}
+
+.txt_field input[type=number]::-webkit-inner-spin-button, 
+.txt_field input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+    margin: 0; 
+}
+
+.select{
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.gambar{
+    display: flex;
+}
+
+.gambar label{
+    margin-right: 25px;
+}
+
+input[type=file]{
+    margin-bottom: 10px;
+}
+
+.button input{
+    border: none;
+    color: white;
+    padding: 10px 136px;
+    border-radius: 10px;
+    background-color: rgb(96, 45, 3);
+}
+
